@@ -1,0 +1,109 @@
+.flex-container {
+   
+     display: flex;
+     column-gap: 10px;
+     justify-content: space-around;
+    
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px solid rgb(19, 16, 16)
+}  
+
+
+body {
+ 
+  min-height: 100vh;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+#button-addon1 {
+  color:white
+}
+
+i {
+  color: #0000cc;
+  font-size: 20px
+}
+
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: rgb(20, 11, 11);
+  font-style: georgia;
+}
+
+.form-control.shadow-0:focus {
+  box-shadow: none
+}
+
+.display-3 {
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.lead {
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+.vl {
+  border-left: 3px solid rgb(8, 14, 8);
+  height: 42px;
+}
+.header{
+  width:100%;
+  height:60px;
+  background-color:white;
+}
+body{
+  margin:0px;
+  padding:0px;
+}
+.logo{
+  color:#663399;
+  font-size:25px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align:left;
+  margin-top:0px;
+  float:left;
+  margin:0px;
+  line-height:50px;
+  padding-left:9px;
+}
+.text-centerr{
+  backdrop-filter: blur(10px);background: rgba(24, 23, 23, 0.8);color: white;margin-bottom:- 300px;
+}
+::-ms-input-placeholder { 
+  color: red;
+ }
+ #hv{
+ display: block; /*Remove and see the difference */
+    text-align: center;
+    
+     text-decoration: none;
+     color: white;
+     width:100px; /* set a fixed width of each menus */  
+     border-right: 2px solid rgb(248, 240, 240);
+ }
+ #hk{
+  
+  text-align: center;
+  
+   text-decoration: none;
+   color: white;
+   
+   border-right: 2px solid rgb(252, 248, 248);
+ 
+ }
+ #hv:hover{
+
+background-color: #896491;  
+color:white ;
+ }
+ #hk:hover{
+  background-color: #896491;  
+ text-shadow:white
+ }
+ 
